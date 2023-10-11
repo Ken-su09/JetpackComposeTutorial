@@ -13,12 +13,21 @@
         android:theme="@style/Theme.JetpackComposeTutorial"
         tools:targetApi="31">
         <activity
+            android:name=".ui.home.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.JetpackComposeTutorial" />
+        <activity
             android:name=".ui.card.CardActivity"
             android:exported="false" />
         <activity
             android:name=".ui.main.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:theme="@style/Theme.JetpackComposeTutorial" />
+        <activity
+            android:name=".ui.basic_layouts.BasicLayoutsActivity"
+            android:exported="true"
+            android:label=""
             android:theme="@style/Theme.JetpackComposeTutorial">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
